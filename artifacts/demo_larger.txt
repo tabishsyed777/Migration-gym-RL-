@@ -1,0 +1,23 @@
+SQLite live migration: balance -> balance_cents
+step=0 missing=33 old_clients=7 errors=0
+RETIRE_CLIENTS       reward=   2.05 step=1 missing=33 old_clients=6 errors=0
+EXPAND               reward=   2.01 step=2 missing=33 old_clients=5 errors=0
+DUAL_WRITE           reward=   2.26 step=3 missing=28 old_clients=4 errors=0
+WAIT                 reward=   0.13 step=4 missing=25 old_clients=3 errors=0
+WAIT                 reward=   0.12 step=5 missing=22 old_clients=2 errors=0
+BACKFILL_LARGE       reward=   0.34 step=6 missing=5 old_clients=1 errors=0
+BACKFILL_LARGE       reward=  -0.40 step=7 missing=0 old_clients=0 errors=0
+SWITCH_READS         reward=   1.61 step=8 missing=0 old_clients=0 errors=0
+DROP_LEGACY          reward=   1.57 step=9 missing=0 old_clients=0 errors=0
+SUBMIT               reward=  15.85 step=10 missing=0 old_clients=0 errors=0
+{
+  "success": true,
+  "request_errors": 0,
+  "invalid_actions": 0,
+  "action": "SUBMIT",
+  "verdict": {
+    "success": true,
+    "reasons": [],
+    "mismatches": 0
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "standard": {
+    "random": {
+      "episodes": 200,
+      "success_rate": 0.0,
+      "success_95pct_wilson": [
+        0.0,
+        0.018846005918320894
+      ],
+      "mean_return": -36.95483400801148,
+      "mean_steps": 7.02,
+      "mean_request_errors": 2.95
+    },
+    "scripted": {
+      "episodes": 200,
+      "success_rate": 1.0,
+      "success_95pct_wilson": [
+        0.9811539940816791,
+        1.0
+      ],
+      "mean_return": 25.796089145293692,
+      "mean_steps": 9.145,
+      "mean_request_errors": 0.0
+    },
+    "double_dqn": {
+      "episodes": 200,
+      "success_rate": 1.0,
+      "success_95pct_wilson": [
+        0.9811539940816791,
+        1.0
+      ],
+      "mean_return": 25.982258767463335,
+      "mean_steps": 7.47,
+      "mean_request_errors": 0.0
+    }
+  },
+  "stress": {
+    "random": {
+      "episodes": 200,
+      "success_rate": 0.0,
+      "success_95pct_wilson": [
+        0.0,
+        0.018846005918320894
+      ],
+      "mean_return": -42.262870869495764,
+      "mean_steps": 6.945,
+      "mean_request_errors": 6.135
+    },
+    "scripted": {
+      "episodes": 200,
+      "success_rate": 1.0,
+      "success_95pct_wilson": [
+        0.9811539940816791,
+        1.0
+      ],
+      "mean_return": 25.760429147794266,
+      "mean_steps": 11.73,
+      "mean_request_errors": 0.0
+    },
+    "double_dqn": {
+      "episodes": 200,
+      "success_rate": 1.0,
+      "success_95pct_wilson": [
+        0.9811539940816791,
+        1.0
+      ],
+      "mean_return": 25.222232114561766,
+      "mean_steps": 9.07,
+      "mean_request_errors": 0.0
+    }
+  },
+  "protocol": {
+    "standard_seed_start": 300000,
+    "larger_seed_start": 400000,
+    "episodes_per_policy_per_suite": 200,
+    "model": "artifacts/policy.npz"
+  }
+}

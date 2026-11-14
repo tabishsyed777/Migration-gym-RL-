@@ -1,0 +1,9 @@
+{
+  "python": "3.12.14",
+  "sqlite": "3.53.1",
+  "numpy": "2.3.5",
+  "gymnasium": "1.2.3",
+  "checkpoint_sha256": "06dfd7c5ae1ef234454193b371ec42a0399ce62f4045bf29e5e44a7c380ca263",
+  "tests_passed": 19,
+  "docker_tested": false
+}

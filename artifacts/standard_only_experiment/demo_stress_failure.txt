@@ -1,0 +1,48 @@
+SQLite live migration: balance -> balance_cents
+step=0 missing=44 old_clients=7 errors=0
+RETIRE_CLIENTS       reward=   2.05 step=1 missing=44 old_clients=6 errors=0
+WAIT                 reward=   0.04 step=2 missing=44 old_clients=5 errors=0
+WAIT                 reward=   0.04 step=3 missing=44 old_clients=4 errors=0
+WAIT                 reward=   0.04 step=4 missing=44 old_clients=3 errors=0
+WAIT                 reward=   0.03 step=5 missing=44 old_clients=2 errors=0
+WAIT                 reward=   0.02 step=6 missing=44 old_clients=1 errors=0
+WAIT                 reward=   0.02 step=7 missing=44 old_clients=0 errors=0
+WAIT                 reward=  -0.23 step=8 missing=44 old_clients=0 errors=0
+WAIT                 reward=  -0.23 step=9 missing=44 old_clients=0 errors=0
+WAIT                 reward=  -0.23 step=10 missing=44 old_clients=0 errors=0
+WAIT                 reward=  -0.23 step=11 missing=44 old_clients=0 errors=0
+WAIT                 reward=  -0.23 step=12 missing=44 old_clients=0 errors=0
+WAIT                 reward=  -0.23 step=13 missing=44 old_clients=0 errors=0
+WAIT                 reward=  -0.23 step=14 missing=44 old_clients=0 errors=0
+WAIT                 reward=  -0.23 step=15 missing=44 old_clients=0 errors=0
+EXPAND               reward=   1.73 step=16 missing=44 old_clients=0 errors=0
+DUAL_WRITE           reward=   1.82 step=17 missing=41 old_clients=0 errors=0
+BACKFILL_LARGE       reward=   0.08 step=18 missing=24 old_clients=0 errors=0
+BACKFILL_LARGE       reward=   0.07 step=19 missing=7 old_clients=0 errors=0
+BACKFILL_LARGE       reward=  -0.39 step=20 missing=0 old_clients=0 errors=0
+BACKFILL_LARGE       reward=  -1.15 step=21 missing=0 old_clients=0 errors=0
+BACKFILL_LARGE       reward=  -1.15 step=22 missing=0 old_clients=0 errors=0
+BACKFILL_LARGE       reward=  -1.15 step=23 missing=0 old_clients=0 errors=0
+BACKFILL_LARGE       reward=  -1.15 step=24 missing=0 old_clients=0 errors=0
+BACKFILL_LARGE       reward=  -1.15 step=25 missing=0 old_clients=0 errors=0
+BACKFILL_LARGE       reward=  -1.15 step=26 missing=0 old_clients=0 errors=0
+BACKFILL_LARGE       reward=  -1.15 step=27 missing=0 old_clients=0 errors=0
+BACKFILL_SMALL       reward=  -1.15 step=28 missing=0 old_clients=0 errors=0
+BACKFILL_SMALL       reward=  -1.15 step=29 missing=0 old_clients=0 errors=0
+BACKFILL_SMALL       reward=  -1.15 step=30 missing=0 old_clients=0 errors=0
+BACKFILL_SMALL       reward=  -1.15 step=31 missing=0 old_clients=0 errors=0
+BACKFILL_SMALL       reward=  -1.15 step=32 missing=0 old_clients=0 errors=0
+BACKFILL_SMALL       reward=  -1.15 step=33 missing=0 old_clients=0 errors=0
+BACKFILL_SMALL       reward=  -1.15 step=34 missing=0 old_clients=0 errors=0
+BACKFILL_SMALL       reward=  -1.15 step=35 missing=0 old_clients=0 errors=0
+BACKFILL_SMALL       reward=  -1.15 step=36 missing=0 old_clients=0 errors=0
+BACKFILL_SMALL       reward=  -1.15 step=37 missing=0 old_clients=0 errors=0
+BACKFILL_SMALL       reward=  -1.15 step=38 missing=0 old_clients=0 errors=0
+BACKFILL_SMALL       reward=  -1.15 step=39 missing=0 old_clients=0 errors=0
+BACKFILL_SMALL       reward= -35.95 step=40 missing=0 old_clients=0 errors=0
+{
+  "success": false,
+  "request_errors": 0,
+  "invalid_actions": 20,
+  "action": "BACKFILL_SMALL"
+}
